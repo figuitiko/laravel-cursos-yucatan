@@ -6,10 +6,15 @@
                 Bienvenue
             </div>
         </div>
+        <div class="card-body">
+            <taskUser></taskUser>
+        </div>
     </div>
 </template>
 <script>
+    import taskUser from '../../components/Tasks-Users.vue'
     export default {
+
         data() {
             return {
 
@@ -18,7 +23,7 @@
             }
         },
         components: {
-
+            taskUser
 //
 
         }

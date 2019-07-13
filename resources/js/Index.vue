@@ -1,20 +1,16 @@
 <template>
     <div id="main">
         <header id="header">
-            <h1>
-                <router-link :to="{name: 'home'}">
-                    Laravel Vue SPA
-                </router-link>
-            </h1>
+
             <navigationMenu></navigationMenu>
         </header>
-        <transition name="fade">
+
         <div id="content">
-
+            <transition name="fade">
                 <router-view></router-view>
-
+            </transition>
         </div>
-        </transition>
+
     </div>
 </template>
 <script>

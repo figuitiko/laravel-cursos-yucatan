@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h3>Liste de utilisateurs</h3>
+        <h3>Lista de Usuarios</h3>
         <div class="alert alert-danger" v-if="has_error">
-            <p>Erreur, impossible de récupérer la liste des utilisateurs.</p>
+            <p>Imposible de obtener lista de usuarios.</p>
         </div>
         <table class="table">
             <tr>
